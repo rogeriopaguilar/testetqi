@@ -87,8 +87,11 @@ de debug, seguindo os seguintes passos:
 1 - abra o arquivo src/main/resources/log4j.properties;
 
 2 - Modifique a linha:
+
 	log4j.appender.AdminFileAppender.File=/tmp/votacao.log
+
     para
+
 	log4j.appender.AdminFileAppender.File=<arquivo>
 
     substituindo <arquivo> por um caminho válido para um arquivo em um diretório onde
@@ -106,6 +109,7 @@ de debug, seguindo os seguintes passos:
 
 4 - caso a aplicação esteja sendo executada, é necessário parar a mesma (CTRL+C no terminal)
     e executar novamente o comando para inicializar a aplicação (Item: Executar)
+
 ==================================================================================================================
 
 
@@ -183,7 +187,8 @@ Por padrão o tempo de escrita deste arquivo xml é 10 minutos, porém é possí
 		        e executá-la novamente (Item: Executar);
 		
 
-Pod padrão o arquivo xml está configurado para ser gerado em /tmp/testexmlpesquisa.xml
+Pod padrão o arquivo xml está configurado para ser gerado em /tmp/testexmlpesquisa.xml. Para mudar esta configuração,
+executar os passos:
 
 		2.2 - abrir o arquivo src/main/webapp/WEB-INF/web.xml
 
