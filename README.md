@@ -5,6 +5,7 @@ Item: Configuração
 Para que a aplicação execute corretamente, é necessário:
 
 1 - instalar o jdk versão 1.6 ou superior (http://www.oracle.com/technetwork/java/javase/downloads/index.html);
+
 2 - instalar o maven3 (http://maven.apache.org/users/index.html);
 	OBS: a instalação dos produtos anteriores requer a configuração de variáveis de ambiente
 	para que os executáveis sejam encontrados. Os detalhes sobre estas configurações podem ser
