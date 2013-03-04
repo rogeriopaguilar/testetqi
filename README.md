@@ -4,10 +4,13 @@ Item: Configuração
 
 Para que a aplicação execute corretamente, é necessário:
 
-1 - instalar o jdk versão 1.6 ou superior (http://www.oracle.com/technetwork/java/javase/downloads/index.html);
+1 - clonar este repositório em algum diretório da máquina de testes ou realizar o download do arquivo zip 
+    utilizando o link zip da página e depois do término do download descompactar o arquivo em algum diretório 
+    na máquina de testes;
 
-2 - instalar o maven (http://maven.apache.org/users/index.html);
+2 - instalar o jdk versão 1.6 ou superior (http://www.oracle.com/technetwork/java/javase/downloads/index.html);
 
+3 - instalar o maven (http://maven.apache.org/users/index.html);
 
 	OBS: a instalação dos produtos anteriores requer a configuração de variáveis de ambiente
 	para que os executáveis sejam encontrados. Os detalhes sobre estas configurações podem ser
@@ -15,12 +18,9 @@ Para que a aplicação execute corretamente, é necessário:
 	O site a seguir ensina como instalar o maven no windows:
 	http://maven3tutorial.blogspot.com.br/2011/02/instalando-o-maven-no-seu-computador.html
 
-3 - ler o Item:Funcionamento para configurar os caminhos necessários para a apliação funcionar corretamente;
-
+4 - ler o Item:Funcionamento para configurar os caminhos necessários para a apliação funcionar corretamente;
 
 ==================================================================================================================
-
-
 
 
 ==================================================================================================================
@@ -90,7 +90,6 @@ Item: testes
 OBS: as evidências dos testes que foram realizados no ambiente de desenvolvimento estão na pasta doc/evidencias_testes
 
 ==================================================================================================================
-
 
 
 ==================================================================================================================
