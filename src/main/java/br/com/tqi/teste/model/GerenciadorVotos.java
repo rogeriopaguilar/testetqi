@@ -11,7 +11,6 @@ import java.io.FileOutputStream;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.math.BigDecimal;
-import java.math.MathContext;
 import java.math.RoundingMode;
 import java.util.concurrent.atomic.AtomicLong;
 
@@ -88,6 +87,7 @@ public class GerenciadorVotos {
 	 * de uma votação não acontecer ao mesmo tempo				<br />
 	 * que uma geração de estatística de votação.				<br />
 	 * @param voto
+	 * @throws IllegalArgumentException caso voto = null
 	 */
 	public static void votar(Voto voto) {
 		while(gerandoEstatistica){
@@ -103,7 +103,7 @@ public class GerenciadorVotos {
 				votos[voto.getVoto()].incrementAndGet();
 				totalVotos.incrementAndGet();
 			} else {
-				throw new IllegalAccessError("Voto deve ser != NULL!");
+				throw new IllegalArgumentException("Voto deve ser != NULL!");
 			}
 		}finally{
 			votando = false;

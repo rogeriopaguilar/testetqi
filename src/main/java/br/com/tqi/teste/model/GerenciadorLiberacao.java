@@ -19,6 +19,7 @@ import br.com.tqi.teste.util.LogUtil;
  * 
  * @author Rogério de Paula Aguilar
  */
+
 @Component
 @ApplicationScoped
 public class GerenciadorLiberacao  { 
