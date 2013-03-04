@@ -227,7 +227,7 @@ public class GerenciadorVotos {
 				d1 = d1.add(diferenca).setScale(2, RoundingMode.HALF_EVEN);
 			} else {
 				diferenca = soma.subtract(decimalCem).setScale(2, RoundingMode.HALF_EVEN);
-				d1 = d1.add(diferenca).setScale(2, RoundingMode.HALF_EVEN);
+				d1 = d1.subtract(diferenca).setScale(2, RoundingMode.HALF_EVEN);
 			}
 		}
 		

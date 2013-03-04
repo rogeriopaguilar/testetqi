@@ -3,6 +3,7 @@ package br.com.tqi.teste.testesapp;
 import static org.junit.Assert.*;
 
 import java.io.FileNotFoundException;
+import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.concurrent.Callable;
@@ -187,6 +188,17 @@ public class TesteGerenciadorVotos {
 		assertEquals(""+valoresAjustados[1], "33.33");
 		assertEquals(""+valoresAjustados[2], "20.0");
 		
+		v1 = 16.68; 
+		v2 = 66.67;
+		v3 = 16.67;
+		
+		valoresAjustados = GerenciadorVotos.ajustarEstatisticas(v1, v2, v3);
+		
+		//System.out.println(Arrays.toString(valoresAjustados));
+
+		assertEquals(""+valoresAjustados[0], "16.66");
+		assertEquals(""+valoresAjustados[1], "66.67");
+		assertEquals(""+valoresAjustados[2], "16.67");
 		
 	}
 	
