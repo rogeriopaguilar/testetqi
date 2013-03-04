@@ -1,6 +1,7 @@
 package br.com.tqi.teste.web;
 import static br.com.tqi.teste.util.LogUtil.debug;
 
+import java.io.UnsupportedEncodingException;
 import java.util.Arrays;
 
 import javax.servlet.http.HttpServletRequest;
@@ -16,6 +17,7 @@ import br.com.tqi.teste.model.GerenciadorLiberacao;
 import br.com.tqi.teste.model.GerenciadorVotos;
 import br.com.tqi.teste.model.GerenciadorVotos.EnumOpcoesVoto;
 import br.com.tqi.teste.model.Voto;
+import br.com.tqi.teste.util.LogUtil;
 import br.com.tqi.teste.web.ajax.RespostaAjax;
 import br.com.tqi.teste.web.captcha.CaptchaServiceSingleton;
 
@@ -111,7 +113,13 @@ public class VotacaoController {
 		    	if(debug) {
 		    		debug(this.getClass(),"requisição ajax, retornando json...");
 		    	}
-		    	RespostaAjax resposta = new RespostaAjax("", true, "O código de verificação informado é inválido! Tente novamente!");
+		    	//FIXME por algum motivo a versão 7 do jetty não respeita o encodig utf-8, então forcei ele aqui. Quando a configuração do servidor for resolvida, retirar a conversão manual
+		    	RespostaAjax resposta = null;
+				try {
+					resposta = new RespostaAjax("", true, new String("O código de verificação informado é inválido! Tente novamente!".getBytes(), "UTF-8"));
+				} catch (UnsupportedEncodingException e) {
+		    		LogUtil.error(this.getClass(),"erro na conversão da string", e);
+				}
 				result.use(Results.json()).withoutRoot().from(resposta).recursive().serialize();
 	    	}
 	    	

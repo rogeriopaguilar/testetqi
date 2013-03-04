@@ -25,6 +25,7 @@
 						  url: url,
 						  assync: false,
 						  data: dados,
+						  contentType: "application/x-www-form-urlencoded;charset=UTF-8",						  
 						  success: function(data)
 						  {
 							//log(data);
@@ -72,7 +73,9 @@
 		</c:if>
 
 
-
+		<%-- 
+			Desabilita o submit automático quando o usuário aperta enter
+		--%>
 		$('input').keypress(function (e) {
 			  if (e.which == 13) {
 			    return false;
@@ -80,11 +83,23 @@
 			});			
 		
 
-		}
+		<%--
+			Faz o botão aparecer apenas quando a imagem do captcha estiver carregada
+		--%>
+		$("#imgCaptcha").remove();
+		var urlCaptcha = '${contexto}/jcaptcha.jpg' + ('?' + Math.random()).replace('.','');
+		var img = $("<img />").attr('id','imgCaptcha').attr('src', urlCaptcha)
+	    .load(function() {
+	            $("#divImagemCaptcha").append(img);
+	            $("#cmdVotar").show();	            
+	    });
+
+		
+	}
 
 
 	
-	)
+)
 
 
 </script>
@@ -134,7 +149,10 @@
 					<br />
 					<center>
 						<div id="divImagemCaptcha">
-							<img src="${contexto}/jcaptcha.jpg" id="imgCaptcha"/>
+							<%-- 							
+								<img src="${contexto}/jcaptcha.jpg" id="imgCaptcha"/>
+							 --%>
+							<img src="" id="imgCaptcha"/>
 						</div>
 					</center>						
 					<br />
@@ -145,7 +163,7 @@
 					
 					
 					<center>
-						<a href="#" class="botaoVotar" id="cmdVotar">Votar</a>
+						<a href="#" class="botaoVotar" id="cmdVotar" style="display:none;">Votar</a>
 					</center>					
 					
 					<div id="dialogo-espera" class="clear" style="text-align: center; padding-bottom: 5px; display:none;">

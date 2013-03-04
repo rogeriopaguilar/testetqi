@@ -1,39 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
-  <servlet>
-    <servlet-name>jcaptcha</servlet-name>
-    <servlet-class>br.com.tqi.teste.web.captcha.ImageCaptchaServlet</servlet-class>
-    <load-on-startup>0</load-on-startup>
-  </servlet>
-  <servlet-mapping>
-    <servlet-name>jcaptcha</servlet-name>
-    <url-pattern>/jcaptcha.jpg</url-pattern>
-  </servlet-mapping>
-  <context-param>
-    <description>Número de minutos a esperar para liberar o resultado parcial da pesquisa</description>
-    <param-name>MINUTOS_PARA_LIBERAR_PESQUISA</param-name>
-    <param-value>5</param-value>
-  </context-param>
-  <context-param>
-    <description>Caminho do arquivo que será gerando contendo o snapshot da pesquisa</description>
-    <param-name>CAMINHO_XML_PESQUISA</param-name>
-    <param-value>/tmp/xmlultimavotacao.xml</param-value>
-  </context-param>
-  <listener>
-    <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
-  </listener>
-  <filter>
-    <filter-name>sitemesh</filter-name>
-    <filter-class>org.sitemesh.config.ConfigurableSiteMeshFilter</filter-class>
-  </filter>
-  <filter-mapping>
-    <filter-name>sitemesh</filter-name>
-    <url-pattern>/*</url-pattern>
-  </filter-mapping>
-  <listener>
-    <listener-class>br.com.tqi.teste.web.listener.CarregaArquivoListener</listener-class>
-  </listener>
-  <welcome-file-list>
-  	<welcome-file>/index.jsp</welcome-file>
-  </welcome-file-list>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	version="3.0">
+	<servlet>
+		<servlet-name>jcaptcha</servlet-name>
+		<servlet-class>br.com.tqi.teste.web.captcha.ImageCaptchaServlet</servlet-class>
+		<load-on-startup>0</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>jcaptcha</servlet-name>
+		<url-pattern>/jcaptcha.jpg</url-pattern>
+	</servlet-mapping>
+	<context-param>
+		<description>Número de minutos a esperar para liberar o resultado parcial da pesquisa</description>
+		<param-name>MINUTOS_PARA_LIBERAR_PESQUISA</param-name>
+		<param-value>5</param-value>
+	</context-param>
+	<context-param>
+		<description>Caminho do arquivo que será gerando contendo o snapshot da pesquisa</description>
+		<param-name>CAMINHO_XML_PESQUISA</param-name>
+		<param-value>/tmp/xmlultimavotacao.xml</param-value>
+	</context-param>
+	<context-param>
+		<param-name>br.com.caelum.vraptor.encoding</param-name>
+		<param-value>UTF-8</param-value>
+	</context-param>
+	<listener>
+		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+	</listener>
+	<filter>
+		<filter-name>sitemesh</filter-name>
+		<filter-class>org.sitemesh.config.ConfigurableSiteMeshFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>sitemesh</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+	<listener>
+		<listener-class>br.com.tqi.teste.web.listener.CarregaArquivoListener</listener-class>
+	</listener>
+	<welcome-file-list>
+		<welcome-file>/index.jsp</welcome-file>
+	</welcome-file-list>
 </web-app>

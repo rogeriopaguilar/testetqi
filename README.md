@@ -41,6 +41,14 @@ Item: Executar
 
 4 - executar no terminal o comando mvn jetty:run
 
+    Aguarde aparecer no terminal a mensagem abaixo antes de ir ao passo 5:
+	
+	[INFO] Starting scanner at interval of 10 seconds.	
+
+    OBS: Na primeira vez que executar o passo 4 ocorrerá uma demora pois mais artefatos serão copiados da internet.
+    Após executar a primeira vez, a execução será bem mais rápida pois todos os artefatos necessários já
+    estarão no repositório local.
+
 5 - abrir o browser e navegar na url 
 
 	http://localhost:8080/
