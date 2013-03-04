@@ -1,0 +1,10 @@
+<sitemesh>
+  <mapping path="/*" decorator="/WEB-INF/sitemesh/decorator.jsp"/>
+ <!-- Exclude path from decoration. -->
+  <mapping path="/veiculos/listarJson*" exclude="true"/>
+  <mapping path="/js/*" exclude="true"/>
+  <mapping path="/img/*" exclude="true"/>
+  <mapping path="/css/*" exclude="true"/>
+  <mapping path="/jcaptcha.jpg" exclude="true"/>
+ 
+  </sitemesh>

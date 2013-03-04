@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.7.0_15" class="java.beans.XMLDecoder">
+ <object class="br.com.tqi.teste.model.Estatistica">
+  <void property="totalVotos">
+   <long>2</long>
+  </void>
+  <void id="longArray0" property="totalVotosPorOpcao">
+   <void index="0">
+    <long>1</long>
+   </void>
+   <void index="2">
+    <long>1</long>
+   </void>
+  </void>
+  <void property="totalVotosPorOpcao">
+   <object idref="longArray0"/>
+  </void>
+ </object>
+</java>

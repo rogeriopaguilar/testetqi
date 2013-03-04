@@ -1,0 +1,72 @@
+9979 [qtp373265850-19] DEBUG br.com.tqi.teste.web.VotacaoController  - [19] - MINUTOS_PARA_LIBERAR_PESQUISA - ARQUIVO CONF - 5
+9980 [qtp373265850-19] DEBUG br.com.tqi.teste.web.VotacaoController  - [19] - numeroMinLiberarPesquisa - 5
+9980 [qtp373265850-19] DEBUG br.com.tqi.teste.web.VotacaoController  - [19] - numeroSegundosLiberarPesquisa - 300
+10177 [qtp373265850-19] DEBUG br.com.tqi.teste.web.VotacaoController  - [19] -gerando resultado parcial...
+10178 [qtp373265850-19] DEBUG br.com.tqi.teste.web.VotacaoController  - [19] -resultado parcial gerado Estatistica [totalVotos=0, totalVotosPorOpcao=[0, 0, 0]]
+10178 [qtp373265850-19] DEBUG br.com.tqi.teste.web.VotacaoController  - [19] -tempoDecorrido - 0 segundos 
+10178 [qtp373265850-19] DEBUG br.com.tqi.teste.web.VotacaoController  - [19] -LIBERAR RESULTADO PARCIAL? true
+10178 [qtp373265850-19] DEBUG br.com.tqi.teste.web.VotacaoController  - [19] -Estatísticas: [Amijubi - 0.0] [Fuleco - 0.0] [ Zuzeco - 0.0 ] 
+13864 [qtp373265850-18] DEBUG br.com.tqi.teste.web.VotacaoController  - [18] - MINUTOS_PARA_LIBERAR_PESQUISA - ARQUIVO CONF - 5
+13865 [qtp373265850-18] DEBUG br.com.tqi.teste.web.VotacaoController  - [18] - numeroMinLiberarPesquisa - 5
+13865 [qtp373265850-18] DEBUG br.com.tqi.teste.web.VotacaoController  - [18] - numeroSegundosLiberarPesquisa - 300
+20622 [qtp373265850-16] DEBUG br.com.tqi.teste.web.VotacaoController  - [16] - MINUTOS_PARA_LIBERAR_PESQUISA - ARQUIVO CONF - 5
+20623 [qtp373265850-16] DEBUG br.com.tqi.teste.web.VotacaoController  - [16] - numeroMinLiberarPesquisa - 5
+20623 [qtp373265850-16] DEBUG br.com.tqi.teste.web.VotacaoController  - [16] - numeroSegundosLiberarPesquisa - 300
+20816 [qtp373265850-16] DEBUG br.com.tqi.teste.web.VotacaoController  - [16] -usuário votando --> Voto [voto=0]
+20817 [qtp373265850-16] DEBUG br.com.tqi.teste.web.VotacaoController  - [16] -captcha válido...
+20817 [qtp373265850-16] DEBUG br.com.tqi.teste.web.VotacaoController  - [16] -voto computado...
+20817 [qtp373265850-16] DEBUG br.com.tqi.teste.web.VotacaoController  - [16] -requisição ajax, retornando json...
+21003 [qtp373265850-18] DEBUG br.com.tqi.teste.web.VotacaoController  - [18] - MINUTOS_PARA_LIBERAR_PESQUISA - ARQUIVO CONF - 5
+21003 [qtp373265850-18] DEBUG br.com.tqi.teste.web.VotacaoController  - [18] - numeroMinLiberarPesquisa - 5
+21003 [qtp373265850-18] DEBUG br.com.tqi.teste.web.VotacaoController  - [18] - numeroSegundosLiberarPesquisa - 300
+21011 [qtp373265850-18] DEBUG br.com.tqi.teste.web.VotacaoController  - [18] -gerando resultado parcial...
+21011 [qtp373265850-18] DEBUG br.com.tqi.teste.web.VotacaoController  - [18] -resultado parcial gerado Estatistica [totalVotos=1, totalVotosPorOpcao=[1, 0, 0]]
+21011 [qtp373265850-18] DEBUG br.com.tqi.teste.web.VotacaoController  - [18] -tempoDecorrido - 11 segundos 
+21011 [qtp373265850-18] DEBUG br.com.tqi.teste.web.VotacaoController  - [18] -LIBERAR RESULTADO PARCIAL? false
+21011 [qtp373265850-18] DEBUG br.com.tqi.teste.web.VotacaoController  - [18] -Estatísticas: [Amijubi - 100.0] [Fuleco - 0.0] [ Zuzeco - 0.0 ] 
+23942 [qtp373265850-20] DEBUG br.com.tqi.teste.web.VotacaoController  - [20] - MINUTOS_PARA_LIBERAR_PESQUISA - ARQUIVO CONF - 5
+23942 [qtp373265850-20] DEBUG br.com.tqi.teste.web.VotacaoController  - [20] - numeroMinLiberarPesquisa - 5
+23942 [qtp373265850-20] DEBUG br.com.tqi.teste.web.VotacaoController  - [20] - numeroSegundosLiberarPesquisa - 300
+23951 [qtp373265850-20] DEBUG br.com.tqi.teste.web.VotacaoController  - [20] -gerando resultado parcial...
+23951 [qtp373265850-20] DEBUG br.com.tqi.teste.web.VotacaoController  - [20] -resultado parcial gerado Estatistica [totalVotos=1, totalVotosPorOpcao=[1, 0, 0]]
+23951 [qtp373265850-20] DEBUG br.com.tqi.teste.web.VotacaoController  - [20] -tempoDecorrido - 13 segundos 
+23951 [qtp373265850-20] DEBUG br.com.tqi.teste.web.VotacaoController  - [20] -LIBERAR RESULTADO PARCIAL? true
+23951 [qtp373265850-20] DEBUG br.com.tqi.teste.web.VotacaoController  - [20] -Estatísticas: [Amijubi - 100.0] [Fuleco - 0.0] [ Zuzeco - 0.0 ] 
+200275 [schedulerFactoryBean_Worker-1] DEBUG br.com.tqi.teste.model.schedule.AtualizarXMLVotos  - [23] -*****EXECUTANDO ESCRITA DO ARQUIVO XML*****
+200301 [schedulerFactoryBean_Worker-1] DEBUG br.com.tqi.teste.model.schedule.AtualizarXMLVotos  - [23] -Arquivo xml gerado em /tmp/testexmlpesquisa.xml
+200301 [schedulerFactoryBean_Worker-1] DEBUG br.com.tqi.teste.model.schedule.AtualizarXMLVotos  - [23] -*****FIM ESCRITA XML*****
+500251 [schedulerFactoryBean_Worker-2] DEBUG br.com.tqi.teste.model.schedule.AtualizarXMLVotos  - [24] -*****EXECUTANDO ESCRITA DO ARQUIVO XML*****
+500257 [schedulerFactoryBean_Worker-2] DEBUG br.com.tqi.teste.model.schedule.AtualizarXMLVotos  - [24] -Arquivo xml gerado em /tmp/testexmlpesquisa.xml
+500257 [schedulerFactoryBean_Worker-2] DEBUG br.com.tqi.teste.model.schedule.AtualizarXMLVotos  - [24] -*****FIM ESCRITA XML*****
+771357 [qtp373265850-19] DEBUG br.com.tqi.teste.web.VotacaoController  - [19] - MINUTOS_PARA_LIBERAR_PESQUISA - ARQUIVO CONF - 5
+771357 [qtp373265850-19] DEBUG br.com.tqi.teste.web.VotacaoController  - [19] - numeroMinLiberarPesquisa - 5
+771357 [qtp373265850-19] DEBUG br.com.tqi.teste.web.VotacaoController  - [19] - numeroSegundosLiberarPesquisa - 300
+800251 [schedulerFactoryBean_Worker-3] DEBUG br.com.tqi.teste.model.schedule.AtualizarXMLVotos  - [25] -*****EXECUTANDO ESCRITA DO ARQUIVO XML*****
+800260 [schedulerFactoryBean_Worker-3] DEBUG br.com.tqi.teste.model.schedule.AtualizarXMLVotos  - [25] -Arquivo xml gerado em /tmp/testexmlpesquisa.xml
+800260 [schedulerFactoryBean_Worker-3] DEBUG br.com.tqi.teste.model.schedule.AtualizarXMLVotos  - [25] -*****FIM ESCRITA XML*****
+808503 [qtp373265850-17] DEBUG br.com.tqi.teste.web.VotacaoController  - [17] - MINUTOS_PARA_LIBERAR_PESQUISA - ARQUIVO CONF - 5
+808504 [qtp373265850-17] DEBUG br.com.tqi.teste.web.VotacaoController  - [17] - numeroMinLiberarPesquisa - 5
+808504 [qtp373265850-17] DEBUG br.com.tqi.teste.web.VotacaoController  - [17] - numeroSegundosLiberarPesquisa - 300
+808521 [qtp373265850-17] DEBUG br.com.tqi.teste.web.VotacaoController  - [17] -usuário votando --> Voto [voto=2]
+808521 [qtp373265850-17] DEBUG br.com.tqi.teste.web.VotacaoController  - [17] -captcha válido...
+808521 [qtp373265850-17] DEBUG br.com.tqi.teste.web.VotacaoController  - [17] -voto computado...
+808521 [qtp373265850-17] DEBUG br.com.tqi.teste.web.VotacaoController  - [17] -requisição ajax, retornando json...
+808592 [qtp373265850-16] DEBUG br.com.tqi.teste.web.VotacaoController  - [16] - MINUTOS_PARA_LIBERAR_PESQUISA - ARQUIVO CONF - 5
+808592 [qtp373265850-16] DEBUG br.com.tqi.teste.web.VotacaoController  - [16] - numeroMinLiberarPesquisa - 5
+808592 [qtp373265850-16] DEBUG br.com.tqi.teste.web.VotacaoController  - [16] - numeroSegundosLiberarPesquisa - 300
+808595 [qtp373265850-16] DEBUG br.com.tqi.teste.web.VotacaoController  - [16] -gerando resultado parcial...
+808596 [qtp373265850-16] DEBUG br.com.tqi.teste.web.VotacaoController  - [16] -resultado parcial gerado Estatistica [totalVotos=2, totalVotosPorOpcao=[1, 0, 1]]
+808596 [qtp373265850-16] DEBUG br.com.tqi.teste.web.VotacaoController  - [16] -tempoDecorrido - 798 segundos 
+808596 [qtp373265850-16] DEBUG br.com.tqi.teste.web.VotacaoController  - [16] -LIBERAR RESULTADO PARCIAL? true
+808596 [qtp373265850-16] DEBUG br.com.tqi.teste.web.VotacaoController  - [16] -Estatísticas: [Amijubi - 50.0] [Fuleco - 0.0] [ Zuzeco - 50.0 ] 
+980424 [qtp373265850-18] DEBUG br.com.tqi.teste.web.VotacaoController  - [18] - MINUTOS_PARA_LIBERAR_PESQUISA - ARQUIVO CONF - 5
+980424 [qtp373265850-18] DEBUG br.com.tqi.teste.web.VotacaoController  - [18] - numeroMinLiberarPesquisa - 5
+980424 [qtp373265850-18] DEBUG br.com.tqi.teste.web.VotacaoController  - [18] - numeroSegundosLiberarPesquisa - 300
+980433 [qtp373265850-18] DEBUG br.com.tqi.teste.web.VotacaoController  - [18] -gerando resultado parcial...
+980433 [qtp373265850-18] DEBUG br.com.tqi.teste.web.VotacaoController  - [18] -resultado parcial gerado Estatistica [totalVotos=2, totalVotosPorOpcao=[1, 0, 1]]
+980433 [qtp373265850-18] DEBUG br.com.tqi.teste.web.VotacaoController  - [18] -tempoDecorrido - 970 segundos 
+980433 [qtp373265850-18] DEBUG br.com.tqi.teste.web.VotacaoController  - [18] -LIBERAR RESULTADO PARCIAL? true
+980434 [qtp373265850-18] DEBUG br.com.tqi.teste.web.VotacaoController  - [18] -Estatísticas: [Amijubi - 50.0] [Fuleco - 0.0] [ Zuzeco - 50.0 ] 
+1100252 [schedulerFactoryBean_Worker-4] DEBUG br.com.tqi.teste.model.schedule.AtualizarXMLVotos  - [26] -*****EXECUTANDO ESCRITA DO ARQUIVO XML*****
+1100257 [schedulerFactoryBean_Worker-4] DEBUG br.com.tqi.teste.model.schedule.AtualizarXMLVotos  - [26] -Arquivo xml gerado em /tmp/testexmlpesquisa.xml
+1100257 [schedulerFactoryBean_Worker-4] DEBUG br.com.tqi.teste.model.schedule.AtualizarXMLVotos  - [26] -*****FIM ESCRITA XML*****

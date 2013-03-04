@@ -1,0 +1,7 @@
+target
+*.class
+*.md~
+.gitignore~
+.project
+.classpath
+estatistica-votos.xml
