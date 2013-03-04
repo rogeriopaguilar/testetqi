@@ -118,8 +118,8 @@ de debug, seguindo os seguintes passos:
 
 	IMPORTANTE! 
 
-	Mesmo que esteja executando a aplicação no windows, o caminho deve ser informado com as barras no formato do 		      		unix. Por exemplo, se for para gerar o arquivo em c:\temp\votacao.log, a configuração deve ser
-	realizada como:
+	Mesmo que esteja executando a aplicação no windows, o caminho deve ser informado com as barras no formato do 		      		unix. 
+	Por exemplo, se for para gerar o arquivo em c:\temp\votacao.log, a configuração deve ser realizada como:
 
 	log4j.appender.AdminFileAppender.File=c:/temp/votacao.log
 
