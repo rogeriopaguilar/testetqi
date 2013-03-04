@@ -89,6 +89,8 @@ Item: testes
 
 OBS: as evidências dos testes que foram realizados no ambiente de desenvolvimento estão na pasta doc/evidencias_testes
 
+Teste a app nos browsers Chrome 25, Firefox 19 e IE9
+
 ==================================================================================================================
 
 
@@ -112,6 +114,17 @@ de debug, seguindo os seguintes passos:
 
     substituindo <arquivo> por um caminho válido para um arquivo em um diretório onde
     o usuário possua direito de escrita.
+
+
+	IMPORTANTE! 
+
+	Mesmo que esteja executando a aplicação no windows, o caminho deve ser informado com as barras no formato do 		      		unix. Por exemplo, se for para gerar o arquivo em c:\temp\votacao.log, a configuração deve ser
+	realizada como:
+
+	log4j.appender.AdminFileAppender.File=c:/temp/votacao.log
+
+
+
 	
 3 - Modifique o nível do log para DEBUG substituindo a linha
 
@@ -217,6 +230,14 @@ executar os passos:
 			  </context-param>
 
 		2.2.2 - Alterar o caminho definido no item param-value para um caminho de arquivo válido onde o usuário possua direito 				de escrita;
+
+			IMPORTANTE! 
+
+			Mesmo que esteja executando a aplicação no windows, o caminho deve ser informado com as barras no formato do 				unix. Por exemplo, se for para gerar o arquivo em c:\temp\xmlultimavotacao.xml, a configuração deve ser
+			realizada como:
+
+			    <param-value>c:/temp/xmlultimavotacao.xml</param-value>
+
 
 		2.2.3 - Salvar o arquivo com as alterações;
 
