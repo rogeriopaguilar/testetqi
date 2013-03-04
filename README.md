@@ -15,8 +15,13 @@ Para que a aplicação execute corretamente, é necessário:
 	OBS: a instalação dos produtos anteriores requer a configuração de variáveis de ambiente
 	para que os executáveis sejam encontrados. Os detalhes sobre estas configurações podem ser
 	encontrados nos sites dos produtos e não serão detalhados neste documento.
+	A variável de ambiente JAVA_HOME deve ser configurada para apontar para o diretório de instalação do jdk e
+	a variável PATH deve ser configurada para apontar para os diretórios bin de instalação do jdk e do maven.
+
 	O site a seguir ensina como instalar o maven no windows:
+
 	http://maven3tutorial.blogspot.com.br/2011/02/instalando-o-maven-no-seu-computador.html
+
 
 4 - ler o Item:Funcionamento para configurar os caminhos necessários para a apliação funcionar corretamente;
 
