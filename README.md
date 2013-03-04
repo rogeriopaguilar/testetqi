@@ -233,7 +233,8 @@ executar os passos:
 
 			IMPORTANTE! 
 
-			Mesmo que esteja executando a aplicação no windows, o caminho deve ser informado com as barras no formato do 				unix. Por exemplo, se for para gerar o arquivo em c:\temp\xmlultimavotacao.xml, a configuração deve ser
+			Mesmo que esteja executando a aplicação no windows, o caminho deve ser informado com as barras no formato do 				unix. 
+			Por exemplo, se for para gerar o arquivo em c:\temp\xmlultimavotacao.xml, a configuração deve ser
 			realizada como:
 
 			    <param-value>c:/temp/xmlultimavotacao.xml</param-value>
